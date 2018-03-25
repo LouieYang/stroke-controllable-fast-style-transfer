@@ -162,6 +162,9 @@ Stroke grows from left to right. We zoom in on the same region (red frame) to ob
     </br>
 </p>
 
+## Disclaimer
+This software is published for academic and non-commercial use only.
+
 ## Contact
 
 Feel free to contact us if there is any question (Yang Liu lyng_95@zju.edu.cn)
