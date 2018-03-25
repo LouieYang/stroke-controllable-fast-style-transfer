@@ -60,6 +60,38 @@ $ python inference_style_transfer.py \
 ## Examples
 Here are some results from our algorithm
 
+### Spatial Stroke Size Control
+From left to right are content&style, mask, same stroke size across image result and spatial stroke size control result.
+<p align='center'>
+    </br>
+    <img src='examples/readme_examples/spatial_control/1_c.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/1_m.png' width='210'>
+    <img src='examples/readme_examples/spatial_control/1_256.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/1_result.jpg' width='210'>
+    </br>
+    <img src='examples/readme_examples/spatial_control/2_c.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/2_m.png' width='210'>
+    <img src='examples/readme_examples/spatial_control/2_256.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/2_result.jpg' width='210'>
+    </br>
+    <img src='examples/readme_examples/spatial_control/3_c.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/3_m.png' width='210'>
+    <img src='examples/readme_examples/spatial_control/3_256.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/3_result.jpg' width='210'>
+    </br>
+    <img src='examples/readme_examples/spatial_control/4_c.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/4_m.png' width='210'>
+    <img src='examples/readme_examples/spatial_control/4_256.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/4_result.jpg' width='210'>
+    </br>
+    <img src='examples/readme_examples/spatial_control/5_c.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/5_m.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/5_256.jpg' width='210'>
+    <img src='examples/readme_examples/spatial_control/5_result.jpg' width='210'>
+    </br>
+</p>
+
+
 ### Continuous Stroke Size Control
 Stroke grows from left to right. We zoom in on the same region (red frame) to observe the variations of stroke sizes
 <p align='center'>
