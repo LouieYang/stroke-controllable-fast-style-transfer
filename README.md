@@ -6,12 +6,11 @@ This repository contains the public release of the Python implementation of stro
 
 If you use this code or find this work useful for your research, please cite:
 ```
-@article{Jing,
-archivePrefix = {arXiv},
-arxivId = {arXiv:1802.07101v2},
-author = {Yongcheng Jing, Yang Liu, Yezhou Yang, Zunlei Feng, Yizhou Yu, Mingli Song},
-title = {{Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields}},
-year={2018}
+@article{jing2018stroke,
+  title={Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields},
+  author={Jing, Yongcheng and Liu, Yang and Yang, Yezhou and Feng, Zunlei and Yu, Yizhou and Tao, Dacheng and Song, Mingli},
+  journal={arXiv preprint arXiv:1802.07101},
+  year={2018}
 }
 ```
 
@@ -57,6 +56,30 @@ $ python inference_style_transfer.py \
     --serial ./examples/serial/default/ \
     --content ./examples/content/some_content.jpg
 ```
+
+## Examples
+Here are some results from our algorithm
+
+### Continuous Stroke Size Control
+Stroke grows from left to right. We zoom in on the same region (red frame) to observe the variations of stroke sizes
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/1/1_rectangle.jpg' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/2_rectangle.jpg' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/3_rectangle.jpg' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/4_rectangle.jpg' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/5_rectangle.jpg' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/6_rectangle.jpg' width='145'>
+</p>
+
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/1/1_detail.png' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/2_detail.png' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/3_detail.png' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/4_detail.png' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/5_detail.png' width='145'>
+    <img src='examples/readme_examples/continuous_control/1/6_detail.png' width='145'>
+</p>
+
 
 ## Contact
 
