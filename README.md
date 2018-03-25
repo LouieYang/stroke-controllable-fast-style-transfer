@@ -105,6 +105,7 @@ Stroke grows from left to right. We zoom in on the same region (red frame) to ob
     <img src='examples/readme_examples/continuous_control/3/4_detail.png' width='140'>
     <img src='examples/readme_examples/continuous_control/3/5_detail.png' width='140'>
     <img src='examples/readme_examples/continuous_control/3/6_detail.png' width='140'>
+    </br>
 </p>
 
 ## Contact
