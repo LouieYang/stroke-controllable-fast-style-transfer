@@ -80,6 +80,41 @@ Stroke grows from left to right. We zoom in on the same region (red frame) to ob
     <img src='examples/readme_examples/continuous_control/1/6_detail.png' width='140'>
 </p>
 
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/2/1_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/2_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/3_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/4_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/5_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/6_rectangle.jpg' width='140'>
+</p>
+
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/2/1_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/2_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/3_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/4_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/5_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/2/6_detail.png' width='140'>
+</p>
+
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/3/1_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/2_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/3_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/4_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/5_rectangle.jpg' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/6_rectangle.jpg' width='140'>
+</p>
+
+<p align='center'>
+    <img src='examples/readme_examples/continuous_control/3/1_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/2_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/3_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/4_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/5_detail.png' width='140'>
+    <img src='examples/readme_examples/continuous_control/3/6_detail.png' width='140'>
+</p>
 
 ## Contact
 
