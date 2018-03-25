@@ -58,7 +58,29 @@ $ python inference_style_transfer.py \
 ```
 
 ## Examples
-Here are some results from our algorithm
+### Discrete Stroke Size Control
+From left to right are content, style, 256-stroke-size result, 512-stroke-size result, 768-stroke-size result.
+<p align='center'>
+    </br>
+    <img src='examples/readme_examples/discrete_stroke/1_c.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/1_s.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/1_256.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/1_512.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/1_768.jpg' width='165'>
+    </br>
+    <img src='examples/readme_examples/discrete_stroke/2_c.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/2_s.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/2_256.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/2_512.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/2_768.jpg' width='165'>
+    </br>
+    <img src='examples/readme_examples/discrete_stroke/3_c.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/3_s.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/3_256.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/3_512.jpg' width='165'>
+    <img src='examples/readme_examples/discrete_stroke/3_768.jpg' width='165'>
+    </br>
+</p>
 
 ### Spatial Stroke Size Control
 From left to right are content&style, mask, same stroke size across image result and spatial stroke size control result.
