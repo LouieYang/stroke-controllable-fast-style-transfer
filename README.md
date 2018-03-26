@@ -1,8 +1,12 @@
 ﻿# Stroke Controllable Fast Style Transfer
 
-This repository contains the public release of the Python implementation of stroke controllable fast style transfer.
+This repository contains the public release of the Python implementation of 
 
-[**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**](https://arxiv.org/abs/1802.07101)
+**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**  [[Project]](http://yongchengjing.com/StrokeControllable)   [[arXiv]](https://arxiv.org/abs/1802.07101)
+
+<!--[**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**](https://arxiv.org/abs/1802.07101)-->
+
+
 
 If you use this code or find this work useful for your research, please cite:
 ```
