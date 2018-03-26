@@ -55,8 +55,7 @@ class Model(object):
         self._build_model(args)
         self.saver = tf.train.Saver(max_to_keep=None)
 
-        if not args.forwarding_only:
-            self.data_loader = DataLoader(args)
+        self.data_loader = DataLoader(args)
 
     def _build_model(self, args):
         # center-crop loading style image

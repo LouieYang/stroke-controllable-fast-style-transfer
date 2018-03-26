@@ -1,4 +1,3 @@
-from __future__ import division
 from PIL import Image
 import numpy as np
 import os
@@ -37,7 +36,7 @@ def load_image(path, shape=None, crop='center'):
     elif isinstance(shape, (int, float)):
         width, height = img.size
         large = max(width, height)
-        ratio = shape / large
+        ratio = shape / float(large)
         width_n, height_n = ratio * width, ratio * height
         img = img.resize((int(width_n), int(height_n)))
     return img
