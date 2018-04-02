@@ -233,5 +233,6 @@ class Model(object):
         container = np.repeat(container, args.batch_size, 0)
 
         preds = self.sess.run(self.preds, feed_dict={self.content_input: container, self.shortcut: shortcut, self.interpolation_factor: 0.0})
-        save_image(output_path, np.squeeze(preds[0]))
+        
+        save_image(output_path, np.squeeze(preds[0][border : np.shape(img)[0] + border, border : np.shape(img)[1] + border, :]))
         print ("[*] Save to {}".format(output_path))
