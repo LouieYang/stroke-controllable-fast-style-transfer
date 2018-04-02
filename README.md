@@ -33,7 +33,7 @@ The VGG-19 model of tensorflow is adopted from [VGG Tensorflow](https://github.c
 
 ## Basic Usage
 ### Train the network
-Use train.py to train a new stroke controllable style transfer network. Run `python train.py -h` to view all the possible parameters. The dataset used for training is MSCOCO train 2014 and could be download from [here](http://cocodataset.org/#download), or we provide a random selected 2k images from MSCOCO. Example usage:
+Use train.py to train a new stroke controllable style transfer network. Run `python train.py -h` to view all the possible parameters. The dataset used for training is MSCOCO train 2014 and could be download from [here](http://cocodataset.org/#download), or you can use a random selected 2k images from MSCOCO (download from [here](https://drive.google.com/file/d/1ph85_1YgApUMD0YkGKZ8EOU4xyNoTJYo/view?usp=sharing)) for quick setup. Example usage:
 
 ```
 $ python train.py \
@@ -51,6 +51,8 @@ $ python pack_model.py \
     --output ./examples/model/some_style.pb
 ```
 
+We also provide some pre-trained style model for fast forwarding, which is stored under `./examples/model/pre-trained/`.
+
 ### Inference
 Use inference_style_transfer.py to inference the content image based on the freezed style model. Set `--interp N` to enable interpolation inference where `N` is the number of the continuous stroke results.
 
@@ -60,6 +62,8 @@ $ python inference_style_transfer.py \
     --serial ./examples/serial/default/ \
     --content ./examples/content/some_content.jpg
 ```
+
+For CPU-users, please set `os.environ["CUDA_VISIBLE_DEVICES"]=""` in the source code.
 
 ## Examples
 ### Discrete Stroke Size Control
