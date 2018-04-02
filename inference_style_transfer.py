@@ -8,12 +8,11 @@ import numpy as np
 import sys
 import functools
 from scipy.misc import imresize
-
-import vgg19.vgg as vgg
 from utils import *
-import netdef
-
 import argparse
+
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', dest='model', required=True)
@@ -34,8 +33,7 @@ with style_graph.as_default():
     tf.import_graph_def(style_graph_def, name='')
 style_graph.finalize()
 
-style_config=tf.ConfigProto(device_count={'GPU':0})
-sess_style = tf.Session(config=style_config,graph = style_graph)
+sess_style = tf.Session(graph = style_graph)
 content_tensor = style_graph.get_tensor_by_name('content_input:0')
 shortcut_options = style_graph.get_tensor_by_name('shortcut:0')
 interp_options = style_graph.get_tensor_by_name('interpolation_factor:0')
