@@ -5,15 +5,15 @@ This repository contains the public release of the Python implementation of
 **Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**  [[Project]](http://yongchengjing.com/StrokeControllable)   [[arXiv]](https://arxiv.org/abs/1802.07101)
 
 <!--[**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**](https://arxiv.org/abs/1802.07101)-->
-[Yongcheng Jing*](http://yongchengjing.com/), Yang Liu*, [Yezhou Yang](https://yezhouyang.engineering.asu.edu/), Zunlei Feng, [Yizhou Yu](http://i.cs.hku.hk/~yzyu/), [Dacheng Tao](https://sydney.edu.au/engineering/people/dacheng.tao.php), [Mingli Song](http://person.zju.edu.cn/en/msong)
+[Yongcheng Jing*](http://yongchengjing.com/), Yang Liu*, [Yezhou Yang](https://yezhouyang.engineering.asu.edu/), Zunlei Feng, [Yizhou Yu](http://i.cs.hku.hk/~yzyu/), [Dacheng Tao](https://sydney.edu.au/engineering/people/dacheng.tao.php), [Mingli Song](http://person.zju.edu.cn/en/msong) (* indicates equal contribution)
 
 
 If you use this code or find this work useful for your research, please cite:
 ```
-@article{jing2018stroke,
+@inproceedings{jing2018stroke,
   title={Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields},
   author={Jing, Yongcheng and Liu, Yang and Yang, Yezhou and Feng, Zunlei and Yu, Yizhou and Tao, Dacheng and Song, Mingli},
-  journal={arXiv preprint arXiv:1802.07101},
+  booktitle={European conference on computer vision},
   year={2018}
 }
 ```
