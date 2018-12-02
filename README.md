@@ -1,11 +1,11 @@
-﻿# Stroke Controllable Fast Style Transfer
+# Stroke Controllable Fast Style Transfer
 
 This repository contains the public release of the Python implementation of 
 
 **Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**  [[Project]](http://yongchengjing.com/StrokeControllable)   [[arXiv]](https://arxiv.org/abs/1802.07101)
 
 <!--[**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**](https://arxiv.org/abs/1802.07101)-->
-[Yongcheng Jing*](http://yongchengjing.com/), Yang Liu*, [Yezhou Yang](https://yezhouyang.engineering.asu.edu/), Zunlei Feng, [Yizhou Yu](http://i.cs.hku.hk/~yzyu/), [Dacheng Tao](https://sydney.edu.au/engineering/people/dacheng.tao.php), [Mingli Song](http://person.zju.edu.cn/en/msong) (* indicates equal contribution)
+[Yongcheng Jing*](http://yongchengjing.com/), Yang Liu*, [Yezhou Yang](https://yezhouyang.engineering.asu.edu/), Zunlei Feng, [Yizhou Yu](http://i.cs.hku.hk/~yzyu/), [Dacheng Tao](https://sydney.edu.au/engineering/people/dacheng.tao.php), [Mingli Song](http://person.zju.edu.cn/en/msong)
 
 
 If you use this code or find this work useful for your research, please cite:
@@ -17,7 +17,15 @@ If you use this code or find this work useful for your research, please cite:
   year={2018}
 }
 ```
-
+Please also consider citing our another work:
+```
+@article{jing2017neural,
+  title={Neural Style Transfer: A Review},
+  author={Jing, Yongcheng and Yang, Yezhou and Feng, Zunlei and Ye, Jingwen and Yu, Yizhou and Song, Mingli},
+  journal={arXiv preprint arXiv:1705.04058},
+  year={2017}
+}
+```
 ## Getting Started
 
 Implemented and tested on Ubuntu 14.04 with Python 2.7 and Tensorflow 1.4.1.
