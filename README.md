@@ -2,7 +2,7 @@
 
 This repository contains the public release of the Python implementation of 
 
-**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**  [[Project]](http://yongchengjing.com/StrokeControllable)   [[arXiv]](https://arxiv.org/abs/1802.07101)
+**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**  [[arXiv]](https://arxiv.org/abs/1802.07101)
 
 <!--[**Stroke Controllable Fast Style Transfer with Adaptive Receptive Fields**](https://arxiv.org/abs/1802.07101)-->
 [Yongcheng Jing*](http://yongchengjing.com/), Yang Liu*, [Yezhou Yang](https://yezhouyang.engineering.asu.edu/), Zunlei Feng, [Yizhou Yu](http://i.cs.hku.hk/~yzyu/), [Dacheng Tao](https://sydney.edu.au/engineering/people/dacheng.tao.php), [Mingli Song](http://person.zju.edu.cn/en/msong)
